@@ -28,7 +28,7 @@ cordova plugin add cordova-plugin-admob-nextgen --save \
 --variable APP_ID_IOS=ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy
 ```
 
-### 2. Install AdMob Mediation Suite
+### 2. Install AdMob Mediation Suite (Cordova CLI)
 Install this plugin and enable the specific ad networks you want to mediate. Only the enabled networks will be compiled into your app.
 
 *Example: Enabling AppLovin and Meta (Facebook) Audience Network:*
@@ -37,6 +37,19 @@ cordova plugin add admob-mediation-suite --save \
 --variable ENABLE_APPLOVIN="true" \
 --variable KEY_APPLOVIN="YOUR_APPLOVIN_SDK_KEY" \
 --variable ENABLE_FACEBOOK="true"
+```
+
+### 3. Install AdMob Mediation Suite (config.xml)
+```bash
+<plugin name="cordova-plugin-admob-nextgen">
+    <variable name="APP_ID_ANDROID" value="ca-app-pub-3940256099942544~3347511713" />
+    <variable name="APP_ID_IOS" value="ca-app-pub-3940256099942544~1458002511" />
+</plugin>
+
+<plugin name="admob-mediation-suite">
+    <variable name="ENABLE_UNITY" value="true" />
+    <variable name="ENABLE_FACEBOOK" value="true" />
+</plugin>
 ```
 
 ---

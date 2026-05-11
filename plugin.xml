@@ -1,4 +1,4 @@
-<plugin id="admob-mediation-suite" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="admob-mediation-suite" version="1.0.1-beta.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>AdMob Mediation Suite</name>
     <description>Dynamic AdMob Mediation Manager for Android | iOS</description>
     <author>EMI INDO</author>
@@ -22,7 +22,7 @@
     <preference name="ENABLE_PANGLE" default="false" />
     <preference name="ENABLE_PUBMATIC" default="false" />
 
-    <!-- Android Adapter Version Overrides -->
+    <!--Android Adapter Version Overrides -->
     <preference name="VER_ANDROID_FACEBOOK" default="6.16.0.0" />
     <preference name="VER_ANDROID_APPLOVIN" default="11.11.3.0" />
     <preference name="VER_ANDROID_UNITY" default="4.9.2.0" />
@@ -40,7 +40,7 @@
     <preference name="VER_ANDROID_PANGLE" default="8.0.0.4.0" />
     <preference name="VER_ANDROID_PUBMATIC" default="5.1.0.0" />
 
-    <!-- iOS Adapter Version Overrides -->
+    <!--iOS Adapter Version Overrides -->
     <preference name="VER_IOS_FACEBOOK" default="6.12.0.0" />
     <preference name="VER_IOS_APPLOVIN" default="11.11.3.0" />
     <preference name="VER_IOS_UNITY" default="4.9.0.0" />
@@ -59,9 +59,9 @@
     <preference name="VER_IOS_PUBMATIC" default="5.1.0.0" />
 
     <!-- Special Keys -->
-    <preference name="KEY_APPLOVIN" default="" />
+    <preference name="KEY_APPLOVIN" default="none" />
 
-    <hook type="after_prepare" src="src/dynamic_injector.js" />
+    <hook type="after_prepare" src="src/scripts/dynamic_injector.js" />
 
     <platform name="android"></platform>
     <platform name="ios"></platform>
