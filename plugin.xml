@@ -1,4 +1,4 @@
-<plugin id="admob-mediation-suite" version="1.0.1-beta.2" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="admob-mediation-suite" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>AdMob Mediation Suite</name>
     <description>Dynamic AdMob Mediation Manager for Android | iOS</description>
     <author>EMI INDO</author>
