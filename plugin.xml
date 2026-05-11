@@ -4,28 +4,64 @@
     <author>EMI INDO</author>
     <license>MIT</license>
 
+    <!-- Network Toggles -->
     <preference name="ENABLE_FACEBOOK" default="false" />
     <preference name="ENABLE_APPLOVIN" default="false" />
     <preference name="ENABLE_UNITY" default="false" />
     <preference name="ENABLE_VUNGLE" default="false" />
     <preference name="ENABLE_IRONSOURCE" default="false" />
+    <preference name="ENABLE_CHARTBOOST" default="false" />
+    <preference name="ENABLE_DT_EXCHANGE" default="false" />
+    <preference name="ENABLE_IMOBILE" default="false" />
+    <preference name="ENABLE_INMOBI" default="false" />
+    <preference name="ENABLE_LINE" default="false" />
+    <preference name="ENABLE_MAIO" default="false" />
+    <preference name="ENABLE_MINTEGRAL" default="false" />
+    <preference name="ENABLE_MOLOCO" default="false" />
+    <preference name="ENABLE_MYTARGET" default="false" />
+    <preference name="ENABLE_PANGLE" default="false" />
+    <preference name="ENABLE_PUBMATIC" default="false" />
 
+    <!-- Android Adapter Version Overrides -->
     <preference name="VER_ANDROID_FACEBOOK" default="6.16.0.0" />
     <preference name="VER_ANDROID_APPLOVIN" default="11.11.3.0" />
     <preference name="VER_ANDROID_UNITY" default="4.9.2.0" />
     <preference name="VER_ANDROID_VUNGLE" default="7.4.3.0" />
     <preference name="VER_ANDROID_IRONSOURCE" default="8.7.0.0" />
-    
+    <preference name="VER_ANDROID_CHARTBOOST" default="9.11.1.1" />
+    <preference name="VER_ANDROID_DT_EXCHANGE" default="8.4.5.0" />
+    <preference name="VER_ANDROID_IMOBILE" default="2.3.2.3" />
+    <preference name="VER_ANDROID_INMOBI" default="11.2.0.0" />
+    <preference name="VER_ANDROID_LINE" default="3.1.0.0" />
+    <preference name="VER_ANDROID_MAIO" default="2.0.8.2" />
+    <preference name="VER_ANDROID_MINTEGRAL" default="17.1.51.0" />
+    <preference name="VER_ANDROID_MOLOCO" default="4.8.0.0" />
+    <preference name="VER_ANDROID_MYTARGET" default="5.45.3.0" />
+    <preference name="VER_ANDROID_PANGLE" default="8.0.0.4.0" />
+    <preference name="VER_ANDROID_PUBMATIC" default="5.1.0.0" />
 
+    <!-- iOS Adapter Version Overrides -->
     <preference name="VER_IOS_FACEBOOK" default="6.12.0.0" />
     <preference name="VER_IOS_APPLOVIN" default="11.11.3.0" />
     <preference name="VER_IOS_UNITY" default="4.9.0.0" />
     <preference name="VER_IOS_VUNGLE" default="7.4.4.0" />
     <preference name="VER_IOS_IRONSOURCE" default="8.7.0.0.0" />
+    <preference name="VER_IOS_CHARTBOOST" default="9.12.0.0" />
+    <preference name="VER_IOS_DT_EXCHANGE" default="8.4.7.0" />
+    <preference name="VER_IOS_IMOBILE" default="2.3.4.6" />
+    <preference name="VER_IOS_INMOBI" default="11.2.0.0" />
+    <preference name="VER_IOS_LINE" default="3.0.1.0" />
+    <preference name="VER_IOS_MAIO" default="2.2.1.1" />
+    <preference name="VER_IOS_MINTEGRAL" default="8.1.3.0" />
+    <preference name="VER_IOS_MOLOCO" default="4.6.0.0" />
+    <preference name="VER_IOS_MYTARGET" default="5.42.1.0" />
+    <preference name="VER_IOS_PANGLE" default="7.9.1.1.0" />
+    <preference name="VER_IOS_PUBMATIC" default="5.1.0.0" />
 
+    <!-- Special Keys -->
     <preference name="KEY_APPLOVIN" default="" />
 
-    <hook type="after_prepare" src="src/scripts/dynamic_injector.js" />
+    <hook type="after_prepare" src="src/dynamic_injector.js" />
 
     <platform name="android"></platform>
     <platform name="ios"></platform>

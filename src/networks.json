@@ -1,0 +1,170 @@
+[
+  {
+    "key": "FACEBOOK",
+    "name": "Meta (Facebook)",
+    "artifact": "facebook",
+    "pod": "GoogleMobileAdsMediationFacebook",
+    "defaultVersionAndroid": "6.16.0.0",
+    "defaultVersionIos": "6.12.0.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/meta",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/meta"
+  },
+  {
+    "key": "APPLOVIN",
+    "name": "AppLovin",
+    "artifact": "applovin",
+    "pod": "GoogleMobileAdsMediationAppLovin",
+    "defaultVersionAndroid": "11.11.3.0",
+    "defaultVersionIos": "11.11.3.0",
+    "manifestMeta": { "name": "applovin.sdk.key", "varKey": "KEY_APPLOVIN" },
+    "plistKey": "AppLovinSdkKey",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/applovin",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/applovin"
+  },
+  {
+    "key": "UNITY",
+    "name": "Unity Ads",
+    "artifact": "unity",
+    "pod": "GoogleMobileAdsMediationUnity",
+    "defaultVersionAndroid": "4.9.2.0",
+    "defaultVersionIos": "4.9.0.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/unity",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/unity"
+  },
+  {
+    "key": "IRONSOURCE",
+    "name": "ironSource Ads",
+    "artifact": "ironsource",
+    "pod": "GoogleMobileAdsMediationIronSource",
+    "defaultVersionAndroid": "8.7.0.0",
+    "defaultVersionIos": "8.7.0.0.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/ironsource",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/ironsource"
+  },
+  {
+    "key": "VUNGLE",
+    "name": "Liftoff Monetize (Vungle)",
+    "artifact": "vungle",
+    "pod": "GoogleMobileAdsMediationVungle",
+    "defaultVersionAndroid": "7.4.3.0",
+    "defaultVersionIos": "7.4.4.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/liftoff-monetize",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/liftoff-monetize"
+  },
+  {
+    "key": "CHARTBOOST",
+    "name": "Chartboost",
+    "artifact": "chartboost",
+    "pod": "GoogleMobileAdsMediationChartboost",
+    "defaultVersionAndroid": "9.11.1.1",
+    "defaultVersionIos": "9.12.0.0",
+    "mavenRepo": "https://cboost.jfrog.io/artifactory/chartboost-ads/",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/chartboost",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/chartboost"
+  },
+  {
+    "key": "DT_EXCHANGE",
+    "name": "DT Exchange (Fyber)",
+    "artifact": "fyber",
+    "pod": "GoogleMobileAdsMediationFyber",
+    "defaultVersionAndroid": "8.4.5.0",
+    "defaultVersionIos": "8.4.7.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/dt-exchange",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/dt-exchange"
+  },
+  {
+    "key": "IMOBILE",
+    "name": "i-mobile",
+    "artifact": "imobile",
+    "pod": "GoogleMobileAdsMediationIMobile",
+    "defaultVersionAndroid": "2.3.2.3",
+    "defaultVersionIos": "2.3.4.6",
+    "mavenRepo": "https://imobile.github.io/adnw-sdk-android",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/imobile",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/imobile"
+  },
+  {
+    "key": "INMOBI",
+    "name": "InMobi",
+    "artifact": "inmobi",
+    "pod": "GoogleMobileAdsMediationInMobi",
+    "defaultVersionAndroid": "11.2.0.0",
+    "defaultVersionIos": "11.2.0.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/inmobi",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/inmobi"
+  },
+  {
+    "key": "LINE",
+    "name": "LINE Ads Network",
+    "artifact": "line",
+    "pod": "GoogleMobileAdsMediationLine",
+    "defaultVersionAndroid": "3.1.0.0",
+    "defaultVersionIos": "3.0.1.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/line",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/line"
+  },
+  {
+    "key": "MAIO",
+    "name": "maio",
+    "artifact": "maio",
+    "pod": "GoogleMobileAdsMediationMaio",
+    "defaultVersionAndroid": "2.0.8.2",
+    "defaultVersionIos": "2.2.1.1",
+    "mavenRepo": "https://imobile-maio.github.io/maven",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/maio",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/maio"
+  },
+  {
+    "key": "MINTEGRAL",
+    "name": "Mintegral",
+    "artifact": "mintegral",
+    "pod": "GoogleMobileAdsMediationMintegral",
+    "defaultVersionAndroid": "17.1.51.0",
+    "defaultVersionIos": "8.1.3.0",
+    "mavenRepo": "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/mintegral",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/mintegral"
+  },
+  {
+    "key": "MOLOCO",
+    "name": "Moloco",
+    "artifact": "moloco",
+    "pod": "GoogleMobileAdsMediationMoloco",
+    "defaultVersionAndroid": "4.8.0.0",
+    "defaultVersionIos": "4.6.0.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/moloco",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/moloco"
+  },
+  {
+    "key": "MYTARGET",
+    "name": "myTarget",
+    "artifact": "mytarget",
+    "pod": "GoogleMobileAdsMediationMyTarget",
+    "defaultVersionAndroid": "5.45.3.0",
+    "defaultVersionIos": "5.42.1.0",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/mytarget",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/mytarget"
+  },
+  {
+    "key": "PANGLE",
+    "name": "Pangle",
+    "artifact": "pangle",
+    "pod": "GoogleMobileAdsMediationPangle",
+    "defaultVersionAndroid": "8.0.0.4.0",
+    "defaultVersionIos": "7.9.1.1.0",
+    "mavenRepo": "https://artifact.bytedance.com/repository/pangle/",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/pangle",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/pangle"
+  },
+  {
+    "key": "PUBMATIC",
+    "name": "PubMatic OpenWrap",
+    "artifact": "pubmatic",
+    "pod": "GoogleMobileAdsMediationPubMatic",
+    "defaultVersionAndroid": "5.1.0.0",
+    "defaultVersionIos": "5.1.0.0",
+    "mavenRepo": "https://repo.pubmatic.com/artifactory/public-repos",
+    "guideAndroid": "https://developers.google.com/admob/android/mediation/pubmatic",
+    "guideIos": "https://developers.google.com/admob/ios/mediation/pubmatic"
+  }
+]
